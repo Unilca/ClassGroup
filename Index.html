@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Классный портал</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <div class="logo">КП</div>
+          <span class="brand_name">Классный портал</span>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <div class="wrap">
+          <div>
+            <h1>Добро пожаловать в наш сайт 6 класса "А"</h1>
+            <p>
+              Здесь вы найдете: сколько сегодня уроков, сколько домашек, сколько
+              кружков, какие новости и многое другое.
+            </p>
+        </div>
+        <div class="flat">
+            <div class="stat">
+              <h3>Уроки сегодня</h3>
+              <p>7</p>
+            </div>
+            <div class="stat">
+              <h3>Домашки</h3>
+              <p>4</p>
+            </div>
+            <div class="stat">
+              <h3>Новости</h3>
+              <p>3</p>
+            </div>
+            <div class="stat">
+              <h3>Кружки</h3>
+              <p>3</p>
+            </div>
+          </div>
+      </section>
+      <div class="tabs">
+        <nav class="tab-controls">
+          <a href="#schedule">Расписание</a>
+          <a href="#homework">Домашка</a>
+          <a href="#news">Новости</a>
+          <a href="#clubs">Кружки</a>
+          <a href="#game">Тренажер</a>
+        </nav>
+        <div class="tab-panels">
+          <div id="schedule" class="tab-panel">
+            <h2>Расписание</h2>
+            <div class="schedule">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Дни</th>
+                    <th>Предметы</th>
+                    <th>Кабинет</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="time">Пн,Вт,Ср,Чт,Пт</td>
+                    <td>Математика</td>
+                    <td>315</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн,Вт,Ср,Чт,Пт</td>
+                    <td>Русский язык</td>
+                    <td>316</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн,Ср,Чт</td>
+                    <td>История</td>
+                    <td>308</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн,Вт,Чт</td>
+                    <td>Английский язык</td>
+                    <td>426/1 или 426/2</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн,Вт,Чт</td>
+                    <td>Литература</td>
+                    <td>316</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн,Ср</td>
+                    <td>Немецкий/Китайский/Французский язык</td>
+                    <td>426/1,406,312</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн</td>
+                    <td>Разговоры о важном</td>
+                    <td>316</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пн,Вт,Чт</td>
+                    <td>Математическая или Финансовая грамотность</td>
+                    <td>315</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Вт</td>
+                    <td>Труд(Технология)</td>
+                    <td>409 или 1</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Ср,Сб</td>
+                    <td>Биология</td>
+                    <td>412</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Ср</td>
+                    <td>География</td>
+                    <td>315 или 315</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Ср</td>
+                    <td>Музыка</td>
+                    <td>215</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Чт</td>
+                    <td>Информатика</td>
+                    <td>306</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Чт</td>
+                    <td>ИЗО</td>
+                    <td>311</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пт</td>
+                    <td>Физическая культура</td>
+                    <td>106</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Пт</td>
+                    <td>Занимательная химия</td>
+                    <td>410</td>
+                  </tr>
+                  <tr>
+                    <td class="time">Сб</td>
+                    <td>Физика</td>
+                    <td>414</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="homework" class="tab-panel">
+            <h2>Домашка</h2>
+            <form>
+              <label>Предмет</label>
+              <input type="text" placeholder="Математика" />
+
+              <label>Задание</label>
+              <textarea placeholder="Стр. 25, №3"></textarea>
+            </form>
+          </div>
+        </div>
+        <div id="news" class="tab-panel">
+          <h2>Новости</h2>
+          <div class="grid cols-2">
+            <div class="card news-card">
+              <img
+                src="https://img.freepik.com/free-photo/boy-holding-golden-trophy-his-team-mates-unfocused_23-2148631459.jpg"
+                alt=""
+              />
+              <div>
+                <h3>Соревнования по футболу</h3>
+                <p>
+                  Сегодня состоялся матч по футболу: 6 классы против 7 классов.
+                  Выйграл 7 со счетом 2:0.
+                </p>
+              </div>
+            </div>
+            <div class="card news-card">
+              <img
+                src="https://img.freepik.com/free-photo/cartoon-student-math-class_23-2151641207.jpg"
+                alt=""
+              />
+              <div>
+                <h3>Олимпиада по математике</h3>
+                <p>
+                  Была олимпиада по математике, победители которой поедут в
+                  Казань на математические игры.
+                </p>
+              </div>
+            </div>
+            <div class="card news-card">
+              <img
+                src="https://img.freepik.com/free-photo/fire-extinguisher_53876-75136.jpg"
+                alt=""
+              />
+              <div>
+                <h3>Тренировочная пожарная тревога</h3>
+                <p>
+                  Сегодня на 3 уроке была тренеровочная пожарная тревога. Все
+                  классы успешно эвакуировались.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="clubs" class="tab-panel">
+          <h2>Кружки</h2>
+          <div class="grid cols-3">
+            <div class="card club">
+              <h4>Хореография, Баскетбол</h4>
+              <div class="meta">Понедельник</div>
+            </div>
+            <div class="card club">
+              <h4>ИЗО, Олимпиадная математика</h4>
+              <div class="meta">Вторник</div>
+            </div>
+            <div class="grid cols-3">
+            <div class="card club">
+              <h4>Футбол, Волейбол</h4>
+              <div class="meta">Среда</div>
+            </div>
+            <div class="grid cols-3">
+            <div class="card club">
+              <h4>ИЗО, Олимпиадная математика</h4>
+              <div class="meta">Четверг</div>
+            </div>
+            <div class="grid cols-3">
+            <div class="card club">
+              <h4>Хореография, Баскетбол</h4>
+              <div class="meta">Пятница</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="game" class="tab-panel web_game"><h2>Тренажер по математике</h2>
+    <div class="card club"><iframe class="game_panel"src="game_web/index.html" width="700" height="500" frameborder="0"></iframe></div></div>
+  </body>
+</html>
