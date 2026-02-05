@@ -68,7 +68,7 @@ header .logo {
 .wrap {
   display: flex;
   align-items: center;
-   margin-left: 50px 0;
+   margin-left: 100px;
 }
 
 /* Главный блок */
@@ -249,5 +249,6 @@ form textarea {
   justify-content: center;
   align-items: center;
 }
+
 
 
