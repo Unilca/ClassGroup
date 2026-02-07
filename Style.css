@@ -1,270 +1,297 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Классный портал</title>
-    <link rel="stylesheet" href="Style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container nav">
-        <div class="brand">
-          <div class="logo">КП</div>
-          <span class="brand_name">Классный портал</span>
-        </div>
-      </div>
-    </header>
-    <main class="container">
-      <section class="hero hero-color">
-        <div class="wrap">
-          <div>
-            <h1>Добро пожаловать в наш сайт 6 класса "А"</h1>
-            <p>
-              В нашем классе 23 ученика, из них 7 девочек и 16 мальчиков.
-              Наш классный руководитель Митрофанова Надежда Николаевна.<br>
-              Здесь вы найдете: сколько сегодня уроков, домашних заданий, кружков, какие новости и многое другое.
-            </p>
-        </div>
-      </section>
-      <div class="tabs">
-        <nav class="tab-controls">
-          <a href="#schedule">Расписание</a>
-          <a href="#homework">Домашка</a>
-          <a href="#sources">Знания</a>
-          <a href="#news">Новости</a>
-          <a href="#birthdays">Именинники</a>
-          <a href="#clubs">Кружки</a>
-          <a href="#achieve">Достижения</a>
-          <a href="#game">Тренажер</a>
-        </nav>
-        <div class="tab-panels">
-          <div id="schedule" class="tab-panel schedule-color">
-          <h2>Расписание</h2>
-  <div class="grid cols-3">
-    <div class="card club">
-      <h4>Понедельник</h4>
-      <div class="meta"><div>1. Разговоры о важном</div>
-    <div>2. Русский язык</div>
-    <div>3. Математика</div>
-    <div>4. Китайский/Французский/Немецкий языки</div></div>
-    <div>5. Финансовая грамотность</div>
-    <div>6. Литература</div>
-    <div>7. История</div>
-    </div>
-    <div class="card club">
-      <h4>Вторник</h4>
-      <div class="meta"><div>1. Английский язык</div>
-    <div>2. Русский язык</div>
-    <div>3. Математика</div>
-    <div>4. Математическая грамотность</div></div>
-    <div>5. Труд</div>
-    <div>6. Труд</div>
-    <div>7. Литература</div>
-    </div>
-    <div class="card club">
-      <h4>Среда</h4>
-      <div class="meta"><div>1. Биология</div>
-    <div>2. Китайский/Французский/Немецкий языки</div>
-    <div>3. Русский язык</div>
-    <div>4. Музыка</div></div>
-    <div>5. Математика</div>
-    <div>6. ИЗО</div>
-    <div>7. История</div>
-    </div>
-    <div class="card club">
-      <h4>Четверг</h4>
-      <div class="meta"><div>1. Русский язык</div>
-    <div>2. Математика</div>
-    <div>3. Английский язык/Информатика</div>
-    <div>4. Информатика/Английский язык</div></div>
-    <div>5. География</div>
-    <div>6. Литература</div>
-    <div>7. Математическая грамотность</div>
-    <div>8. Россия - мои горизонты</div>
-    </div>
-    <div class="card club">
-      <h4>Пятница</h4>
-      <div class="meta"><div>1. История</div>
-    <div>2. Математика</div>
-    <div>3. Русский язык</div>
-    <div>4. Русский язык</div></div>
-    <div>5. Физкультура</div>
-    <div>6. Физкультура</div>
-    <div>7. Английский язык</div>
-    </div>
-    <div class="card club">
-      <h4>Суббота</h4>
-      <div class="meta"><div>2. Биология</div>
-    <div>3. Физика</div>
-    <div>4. Занимательная химия</div>
-    </div>
-  </div>
-</div>
-            <div>
-          <div id="homework" class="tab-panel">
-            <h2>Домашка</h2>
-            <form>
-              <input type="text" disabled placeholder="Математика: №345, 336, 338" />
-            </form>
-            <form>
-              <input type="text" disabled placeholder="Русский язык: Уч. Рыбченковой 2 ч. упр. 23, 25, 27" />
-            </form>
-            <form>
-              <input type="text" disabled placeholder="Английский язык: Читать и переводить текст стр. 44-46" />
-            </form>
-            </div>
-        </div>
-            </div>
-            <div id="sources" class="tab-panel sources-color">
-               <h1>Источники знаний</h1>
-               <div class="content-row">
-            <div>
-              <h2>Учебные материалы</h2>
-            <a class="link-color" href="https://disk.yandex.ru/d/Zi68VmmiFUEong">Билеты по русскому языку </a> 
-            </div>
-          <div>
-              <h2>Каталог увлекательных произведений</h2>
-            <a class="link-color" href="https://disk.yandex.ru/d/9Tq3-pQ72iovaw">Список интересных книг </a> 
-            </div>
-            </div>
-          </div>
-        <div id="news" class="tab-panel news-color">
-          <h2>Новости</h2>
-          <div class="grid cols-2">
-            <div class="card news-card">
-              <img
-                src="https://img.freepik.com/premium-photo/school-teacher-group-teenagers-high-school-students_116407-3549.jpg"
-                alt=""
-              />
-              <div>
-                <h3>Экскурсия</h3>
-                <p>
-                  Экскурсия для шестиклассников состоялась 5 февраля в 15.00 - 17.30 в центр управления полетами, в город Королев.
-                </p>
-              </div>
-            </div>
-            <div class="card news-card">
-              <img
-                src="https://img.freepik.com/premium-photo/happy-child-hold-dumbbell-school-classroom_545934-15748.jpg"
-                alt=""
-              />
-              <div>
-                <h3>ФизКвиз</h3>
-                <p>
-                  Ждем всех 15 февраля!
-                  Будет раунд про любовь!
-                  Предлагаю устроить обмен валентинками, будет стоять коробка и в конце устроим разбор! 
-                  Берите с собой валентинки!
-                  Будем отправлять друг другу приятности!
-                </p>
-              </div>
-            </div>
-            <div class="card news-card">
-              <img
-                src="https://img.freepik.com/premium-photo/design-studio-architect-creative-occupation-meeting-blueprint-concept_53876-84337.jpg"
-                alt=""
-              />
-              <div>
-                <h3>Выставка исследовательских и проектных работ</h3>
-                <p>
-                  14 февраля пройдет конференция "Я - исследователь"! 
-                  Лицеисты покажут, над чем они так долго и упорно работали весь год!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="birthdays" class="tab-panel birthdays-color">
-  <h2>Дни Рождения в марте</h2>
-  <div class="grid cols-2">
-    <div class="card birthday-card">
-        <h4>Вова Ещенко</h4>
-      <form>
-        <input type="text" disabled placeholder="5 марта 2013 год" style="background-color: #fff; width: 150px; margin-bottom: 20px;" />
-      </form>
-    </div>
-    <div class="card birthday-card">
-      <h4>Соня Стремоусова</h4>
-      <form>
-        <input type="text" disabled placeholder="29 апреля 2013 год" style="background-color: #fff; width: 150px; margin-bottom: 20px;" />
-      </form>
-    </div>
-  </div>
-</div>
-        <div id="clubs" class="tab-panel clubs-color">
-          <h2>Кружки</h2>
-          <div class="grid cols-3">
-            <div class="card club">
-              <h4>Понедельник</h4>
-              <div class="meta">Хореография, Баскетбол</div>
-              <div class="meta">16:00-18:00</div>
-            </div>
-            <div class="card club">
-              <h4>Вторник</h4>
-              <div class="meta">ИЗО, Олимпиадная математикаx</div>
-              <div class="meta">15:00-16:00</div>
-            </div>
-            <div class="grid cols-3">
-            <div class="card club">
-              <h4>Среда</h4>
-              <div class="meta">Футбол, Волейбол</div>
-              <div class="meta">15:40-17:40</div>
-            </div>
-            <div class="grid cols-3">
-            <div class="card club">
-              <h4>Четверг</h4>
-              <div class="meta">ИЗО, Олимпиадная математика</div>
-              <div class="meta">15:00-16:00</div>
-            </div>
-            <div class="grid cols-3">
-            <div class="card club">
-              <h4>Пятница</h4>
-              <div class="meta">Хореография, Баскетбол</div>
-              <div class="meta">16:00-18:00</div>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div id="achieve" class="tab-panel achieve-color">
-          <h2>Наши достижения</h2>
-          <div class="grid cols-2">
-            <div class="card news-card">
-              <div>
-                <h3>ФСК "Салют"</h3>
-                <p>
-                  В Долгопрудном прошел "Кубок Надежд" по футболу среди 8 команд Московской области. 
-                  Бронзовым призёром Кубка Надежд стала команда ФСК "Салют", вратарём которой является наш одноклассник - Бортников Юра. 
-                  Поздравляем Юру с успехами в спортивных соревнованиях!
-                </p>
-              </div>
-            </div>
-            <div class="card news-card">
-              <div>
-                <h3>Карате</h3>
-                <p>
-                  26 октября на турнире по карате «Кубок Надежд» в Москве наши ребята из 6-А класса продемонстрировали блестящие результаты!
-                  Нагорный Никита и Новиков Даня и Новиков достойно выступили в своих весовых категориях среди юных каратистов столицы. 
-                  Спортсмены проявили уверенность, дисциплину и стремление к победе, показав высокий уровень мастерства.
-                </p>
-              </div>
-            </div>
-            <div class="card news-card">
-              <div>
-                <h3>Осенний детский чемпионат "L - Лиги"</h3>
-                <p>
-                  В спортивных соревнованиях наших лицеистов также есть футболист - Макар Ступак! 
-                  Макар учится в 6А классе школы “Физтех-лицей” и дополнительно занимается футболом. 
-                  26 октября состоялась финальная игра и подведение итогов Осеннего детского чемпионата "L – Лиги". 
-                  По результатам финального матча Макар взял три награды - лучший ассистент, лучший гол, пас и лучших игрок турнира. 
-                  Поздравляем Макара и желаем ему новых достижений в спорте и учебе!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </main>
-    <div id="game" class="tab-panel web_game game-color"><h2>Тренажер по математике</h2>
-    <div class="card club"><iframe class="game_panel"src="game_web/index.html" width="700" height="500" frameborder="0"></iframe></div></div>
-  </body>
-</html>
+/* Сброс базовых отступов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4ff, #e6e9f0);
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 0 0 15px 15px;
+  color: #000000;
+  font-weight: bold;
+}
+
+header .logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 10px;
+  border: 4px solid #0056b3; /* синяя рамка */
+  border-radius: 15px; /* скруглённые углы */
+  background-color: #007bff; /* синий фон */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* тень */
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* подсветка букв */
+}
+
+.brand {
+  font-size: 25px;
+}
+
+.brand_name {
+  margin-right: 1000px;
+}
+
+/* Кнопки */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #5b86e5;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn.primary {
+  background-color: #4a71ff;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+}
+
+/* Главный блок */
+.hero {
+  background: #fff;
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+/* Кружки и новости */
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 180px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.flat {
+  width: 250px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  min-width: 180px;
+  transition: 0.3s;
+  margin-left: 125px;
+}
+
+.homework {
+  margin-top: 100px;
+}
+
+/* Навигация */
+.tabs {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.tab-controls a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab-controls a:hover {
+  background-color: #5b86e5;
+  color: #fff;
+}
+
+/* Блоки */
+.tab-panel {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Формы */
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Таблица расписания */
+.schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule th {
+  background-color: #5b86e5;
+  color: #fff;
+}
+
+/* Дневные новости */
+.daily_news {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.daily_news img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.daily_news img:hover {
+  transform: scale(1.05);
+}
+
+/* Кружки и новости */
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 180px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.web_game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.schedule-color {
+  background: #568cd8;
+}
+
+.hero-color {
+  background: #568cd8;
+}
+
+.sources-color {
+  background: #568cd8;
+}
+
+.news-color {
+  background: #568cd8;
+}
+
+.birthdays-color {
+  background: #568cd8;
+}
+
+.clubs-color {
+  background: #568cd8;
+}
+
+.achieve-color {
+  background: #568cd8;
+}
+
+.link-color:link {
+  color: white;
+}
+
+.link-color:visited {
+  color: white;
+}
