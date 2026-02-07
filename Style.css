@@ -17,9 +17,10 @@ header {
   display: flex;
   flex-direction: row;
   padding: 20px;
-  background-color: #433dff;
+  background-color: #ffffff;
   border-radius: 0 0 15px 15px;
-  color: #7ff9ff;
+  color: #000000;
+  font-weight: bold;
 }
 
 header .logo {
@@ -50,7 +51,7 @@ header .logo {
   padding: 12px 20px;
   margin: 8px 0;
   background-color: #5b86e5;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   border-radius: 30px;
   transition: 0.3s;
@@ -68,7 +69,8 @@ header .logo {
 .wrap {
   display: flex;
   align-items: center;
-   margin-left: 100px;
+  justify-content: center;
+  min-height: 10vh;
 }
 
 /* Главный блок */
@@ -250,5 +252,46 @@ form textarea {
   align-items: center;
 }
 
+.content-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-around;
+}
 
+.schedule-color {
+  background: #568cd8;
+}
 
+.hero-color {
+  background: #568cd8;
+}
+
+.sources-color {
+  background: #568cd8;
+}
+
+.news-color {
+  background: #568cd8;
+}
+
+.birthdays-color {
+  background: #568cd8;
+}
+
+.clubs-color {
+  background: #568cd8;
+}
+
+.achieve-color {
+  background: #568cd8;
+}
+
+.link-color:link {
+  color: white;
+}
+
+.link-color:visited {
+  color: white;
+}
